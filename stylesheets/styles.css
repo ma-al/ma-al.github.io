@@ -3,8 +3,12 @@ code below modified from "Puigcerber"
 http://stackoverflow.com/a/14731123
 */
 
+.first {
+   margin-top: 0em !important;
+}
+
 h3 {
-   margin-top: 1.0em !important;
+   margin-top: 3em !important;
    overflow: hidden;
    text-align: right;
 }
@@ -772,6 +776,7 @@ header p {
   display: inline-block;
   text-align: center;
 }
+
 #banner .button:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffe788), color-stop(100%, #ffe788));
   background: -webkit-linear-gradient(#ffe788, #ffe788);
@@ -781,9 +786,18 @@ header p {
   background: linear-gradient(#ffe788, #ffe788);
   background-color: #ffeca0;
 }
-#banner .fork {
-  position: relative;
-  left: 36.2%;
+
+#banner .linkdiv {
+  /*position: absolute;
+  right: 1.5em;*/
+  position: fixed;
+  left: 50%;
+  margin-left: -325px;
+}
+
+#banner .link {
+  /*position: static;*/
+  /*left: 36.2%;*/
   margin-left: 0;
   padding: 10px 12px;
   margin-top: 6px;
@@ -791,6 +805,18 @@ header p {
   font-size: 14px;
   background-color: #FFE788;
 }
+
+#banner .fork {
+  position: fixed;
+  left: 50%;
+  margin-left: -325px;
+  padding: 10px 12px;
+  margin-top: 6px;
+  line-height: 14px;
+  font-size: 14px;
+  background-color: #FFE788;
+}
+
 #banner .downloads {
   float: right;
   margin: 0 45px 0 0;
@@ -817,6 +843,12 @@ header p {
   background-color: #FFE788;
 }
 #banner #logo {
+   /*position: fixed;
+   left: 50%;
+   margin-left: -325px;
+   margin-top: 6px;*/
+   /*padding: 10px 12px;*/
+   /*margin-top: 6px;*/
   position: absolute;
   height: 36px;
   width: 36px;
