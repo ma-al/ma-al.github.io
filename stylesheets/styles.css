@@ -1,7 +1,42 @@
 /*
+code below modified from "Puigcerber"
+http://stackoverflow.com/a/14731123
+*/
+
+h3 {
+   margin-top: 1.0em !important;
+   overflow: hidden;
+   text-align: right;
+}
+
+h3:before {
+   background-color: #666666;
+   /*border-color: #333;*/
+   border: 0;
+   border-top: 1px solid #EBEBEB;
+   content: "";
+   display: inline-block;
+   /*height: 1px;*/
+   position: relative;
+   vertical-align: middle;
+   width: 100%;
+}
+
+h3:before {
+   right: 0.5em;
+   margin-left: -50%;
+}
+
+h3:after {
+   left: 0.5em;
+   margin-right: -50%;
+}
+
+/*
 Leap Day for GitHub Pages
 by Matt Graham
 */
+
 @font-face {
   font-family: 'Quattrocento Sans';
   src: url("../fonts/quattrocentosans-bold-webfont.eot");
@@ -364,7 +399,7 @@ fieldset {
 
 /*
  * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3 
+ * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 legend {
