@@ -1,18 +1,13 @@
 
 
-**Mahathir Almashor**  
-Research | Software Engineer  
-IBM Research Australia
+![first world problem](https://github.com/ma-al/ma-al.github.io/blob/master/images/1.fwp.jpeg)
+
+![I should buy a boat](https://github.com/ma-al/ma-al.github.io/blob/master/images/2.boat.jpeg)
+
+![wow doge](https://github.com/ma-al/ma-al.github.io/blob/master/images/3.wow.jpeg)
 
 
-This is the code for my [actual web-page](http://ma-al.github.io).
-
-
-Convenience Links:  
--  [:office: Work](http://researcher.watson.ibm.com/researcher/view.php?person=au1-malmash)  
-- [:floppy_disk: Code](https://github.com/ma-al)  
-- [:mortar_board: Research](http://orcid.org/0000-0002-3846-6282)
-
+Actual web-page is [here](http://ma-al.github.io).
 
 ----
 As always, :information_source: :heart: :octocat:
