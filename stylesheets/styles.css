@@ -788,16 +788,12 @@ header p {
 }
 
 #banner .linkdiv {
-  /*position: absolute;
-  right: 1.5em;*/
   position: fixed;
   left: 50%;
   margin-left: -325px;
 }
 
 #banner .link {
-  /*position: static;*/
-  /*left: 36.2%;*/
   margin-left: 0;
   padding: 10px 12px;
   margin-top: 6px;
@@ -843,12 +839,6 @@ header p {
   background-color: #FFE788;
 }
 #banner #logo {
-   /*position: fixed;
-   left: 50%;
-   margin-left: -325px;
-   margin-top: 6px;*/
-   /*padding: 10px 12px;*/
-   /*margin-top: 6px;*/
   position: absolute;
   height: 36px;
   width: 36px;
@@ -946,17 +936,6 @@ footer {
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
-  }
-
-  #banner {
-    /*display: none;*/
-  }
-
-  /*#banner .downloads {
-    margin-right: 60px;
-  }*/
-  #banner #logo {
-    /*margin-right: 15px;*/
   }
 
   section {
@@ -1059,26 +1038,12 @@ footer {
   #banner {
     top: 0px;
     left: 0px;
-    /*right: 0px;*/
 
     width: 100%;
     margin: 0px;
     padding: 0px;
-    /*margin: 0 auto;*/
     position: relative;
   }
-
-  /*#banner .linkdiv {
-    position: inherit;
-    padding: 0px;
-    margin-left: 6px;
-    left: 0px;
-  }
-
-  #banner #logo {
-    padding: 0px;
-    margin-right: 2px;
-  }*/
 
   section {
     margin-top: 5px;
