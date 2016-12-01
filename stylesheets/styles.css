@@ -1089,7 +1089,11 @@ footer {
   }
 }
 
-#tweetshow {
-  width: 100%;
-  text-align: center;
+
+blockquote {
+    padding-left: 10px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 500px;
+    display: table;
 }
