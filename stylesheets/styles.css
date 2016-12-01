@@ -1088,3 +1088,8 @@ footer {
     width: auto;
   }
 }
+
+#tweetshow {
+  width: 100%;
+  text-align: center;
+}
