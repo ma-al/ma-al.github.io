@@ -1089,6 +1089,14 @@ footer {
   }
 }
 
+.embed-img {
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  width: auto;
+  max-width: 400px;
+  display: table;
+}
 
 blockquote {
     padding-left: 10px;
