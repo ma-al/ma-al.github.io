@@ -1098,6 +1098,19 @@ footer {
   display: table;
 }
 
+@media (max-width: 450px) {
+   .embed-img {
+      max-width: 300px;
+   }
+}
+
+@media (max-width: 350px) {
+   .embed-img {
+      max-width: 200px;
+   }
+}
+
+
 blockquote {
     padding-left: 10px;
     margin: 0 auto;
